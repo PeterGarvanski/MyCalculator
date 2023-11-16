@@ -1,10 +1,22 @@
 body {
-    background-color: #d3d3d3;
+    background-color: #000000;
     color: azure;
+    /* font-weight: 600; */
+    font-family: 'Kalam', cursive;
+    
+}
+
+h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-size: 40px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 span {
@@ -14,11 +26,12 @@ span {
 }
 
 #outer-body {
-    margin-top: 100px;
+    margin-top: 40px;
     height: 700px;
     width: 420px;
+    border: 5px solid azure;
     border-radius: 50px;
-    background-color: black;
+    background-color: #000000;
 }
 
 #awnser-display {
@@ -58,8 +71,7 @@ span {
 
 .function {
     background-color: #bdbdbd;
-    color: black;
-    font-family: 'Oswald', sans-serif;
+    color: #000000;
 }
 
 #zero {
