@@ -3,7 +3,6 @@ body {
     color: azure;
     /* font-weight: 600; */
     font-family: 'Kalam', cursive;
-    
 }
 
 h1 {
@@ -44,7 +43,7 @@ span {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 50px;
 }
 .row {
     display: flex;
@@ -65,13 +64,24 @@ span {
     background-color: #4d4d4d;
 }
 
+.number:active {
+    background-color: #929292;
+}
+
 .symbol {
     background-color: #fdab2c;
 }
 
+.symbol:active {
+    background-color: #ffd69a;
+}
 .function {
     background-color: #bdbdbd;
     color: #000000;
+}
+
+.function:active {
+    background-color: #646464;
 }
 
 #zero {
